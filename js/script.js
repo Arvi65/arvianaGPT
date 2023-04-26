@@ -28,7 +28,7 @@ function addMessageToChat(sender, message) {
 async function fetchGPTResponse(message) {
   // Replace with your own OpenAI API key and endpoint.
   const apiKey = "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";
-  const endpoint = "https://api.openai.com/v1/engines/davinci-codex/completions";
+  const endpoint = "https://api.openai.com/v1/engines/text-davinci-003/completions";
 
   try {
     const response = await axios.post(endpoint, {
