@@ -27,7 +27,7 @@ function addMessageToChat(sender, message) {
 
 async function fetchGPTResponse(message) {
   // Replace with your own OpenAI API key and endpoint.
-  const apiKey = "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";
+  const apiKey = "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";
   const endpoint = "https://api.openai.com/v1/engines/davinci/completions";
 
   try {
